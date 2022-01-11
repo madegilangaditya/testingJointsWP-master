@@ -8,12 +8,18 @@ $breakpoint = "medium"; ?>
 </div>
 
 <div class="top-bar" id="top-bar-menu">
-	<div class="top-bar-left show-for-<?php echo $breakpoint ?>">
-		<ul class="menu">
-			<li><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></li>
-		</ul>
+	<div class="grid-container">
+		<div class="grid-x grid-margin-x">
+			<div class="top-bar-left cell large-6 show-for-<?php echo $breakpoint ?>">
+				<ul class="menu">
+					<li><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></li>
+				</ul>
+			</div>
+			<div class="top-bar-right cell large-6">
+				<?php joints_top_nav(); ?>
+			</div>
+		</div>
+		
 	</div>
-	<div class="top-bar-right">
-		<?php joints_top_nav(); ?>
-	</div>
+	
 </div>

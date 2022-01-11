@@ -351,3 +351,9 @@ PLUGIN STYLES
   margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
+
+/* grid container */
+.grid-container{
+  width: 100%;
+}
+
