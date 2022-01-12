@@ -357,3 +357,16 @@ PLUGIN STYLES
   width: 100%;
 }
 
+/* gutenberg color */
+:root{
+  --secondary-color:#404248;
+}
+
+.has-secondary-background-color {
+  background-color: var(--secondary-color);
+}
+
+.has-secondary-color {
+  color: var(--secondary-color);
+}
+
